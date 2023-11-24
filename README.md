@@ -1,9 +1,9 @@
 # DataScienceProject
 DataScience Project
 
-# [Project Title]
+# Detecting the difficulty level of French texts
 
-[Short description or tagline about your project]
+This project aims to create a model that can detect the level of difficult of a french text based on the CECR grading method.
 
 ## Table of Contents
 
