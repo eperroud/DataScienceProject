@@ -1,0 +1,7 @@
+Traditional features: 
+  maximum and average number of words per sentence
+  average number of character per word
+  readability formulas:
+    Flesch-Kincaid
+    Coleman-Liau
+Lexico-semantic features:
