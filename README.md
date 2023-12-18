@@ -73,6 +73,18 @@ Once this is done, you can select which of the model you would like to use to ma
 
 The model with the best final accuracy on the unlabelled test set is [`LogReg_Cam_COG_Full(0,562).ipynb`](Predictions/LogReg_Cam_COG_Full(0,562).ipynb) implying an accuracy of 0.56 
 
+The confusion matrix of our best predictions is the following : 
+
+|                  | evel 0 - A1 | Level 1 - A2 | Level 2 - B1 | Level 3 - B2 | Level 4 - C1 | Level 5 - C2 |
+|------------------|---------|---------|---------|---------|---------|---------|
+| **Level 0 - A1**      | 125     | 33      | 7       | 1       | 0       | 0       |
+| **Level 1 - A2**      | 29      | 83      | 41      | 2       | 2       | 1       |
+| **Level 2 - B1**      | 17      | 44      | 79      | 12      | 7       | 7       |
+| **Level 3 - B2**      | 4       | 2       | 17      | 82      | 36      | 12      |
+| **Level 4 - C1**      | 0       | 0       | 4       | 29      | 75      | 44      |
+| **Level 5 - C2**      | 0       | 1       | 3       | 23      | 37      | 101     |
+
+
 ## Model Evaluation Metrics
 
 | Model                | Logistic Regression | kNN | Decision Tree | Random Forests |Linear Regression | Neural Network | Ridge 
