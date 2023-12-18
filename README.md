@@ -24,7 +24,11 @@ This project aims to create a model that can detect the level of difficult of a 
 
 [Detailed description of your machine learning project, its goals, and main functionalities.]
 
-## Installation
+## File description
+1. Folder data :
+   - This one contains the needed DataTransformation.ipynb to perform all necessary transformation
+   - final_test.csv
+   - final_training.csv
 
 [Step-by-step instructions on how to install and set up your project, including any dependencies or requirements.]
 
