@@ -21,9 +21,14 @@ This project aims to create a model that can detect the level of difficult of a 
 - [Acknowledgments](#acknowledgments)
 
 ## Description
-
-[Detailed description of your machine learning project, its goals, and main functionalities.]
-
+This project aims to predict text difficulty. The methodolgy is to train your model on the training dataset and finally to predict text difficulty on a text dataset that will be uploaded on a Kaggle competition and give the final accuracy of the model. 
+The steps are the following : 
+1. Perform data transformation on training and tests set to find the best explanatory variables
+2. Upload these datasets and train different models with the training dataset
+3. Choose model with highest accuracy
+4. Predict text difficulty level on the test dataset
+5. Upload it on the Kaggle competition to see resulting accuracy
+   
 ## File description
 All files are jupyter notebooks and perform all necessary installations within given code
 
@@ -46,11 +51,11 @@ All files are jupyter notebooks and perform all necessary installations within g
 
 ## Usage
 In order to run the code properly you have two options : 
-  1. Run the DataTransformation.ipynb first which will provide two new datasets with all necessary modifications :       data/final_test.csv and data/final_training.csv
+  1. Run the DataTransformation.ipynb first which will provide two new datasets with all necessary modifications : [`data/final_test.csv`](data/final_test.csv) and [`data/final_training.csv`](data/final_training.csv)
 
   2. Directly import the existing [`data/final_test.csv`](data/final_test.csv) and [`data/final_training.csv`](data/final_training.csv) available from the data folder in the repository.
 
-Once this is done, you can select which of the model you would like to use to make predictions in the folder Predictions. 
+Once this is done, you can select which of the model you would like to use to make predictions in the folder [Predictions](Predictions). 
 
 ## Data
 
@@ -66,7 +71,14 @@ Once this is done, you can select which of the model you would like to use to ma
 
 ## Results
 
-[Share the results of your model, including performance metrics and visualizations. Compare your model's performance to other benchmarks if applicable.]
+## Model Evaluation Metrics
+
+| Model                | Logistic Regression | kNN | Decision Tree | Random Forests |Linear Regression | Neural Network
+|----------------------|---------------------|-----|---------------|-----------------|----------------------|--------------|
+| Precision            | 0.85                | 0.78| 0.92          | 0.89            | 0.76                 |              |     
+| Recall               | 0.72                | 0.81| 0.89          | 0.95            | 0.68                 |              |
+| F1-score             | 0.78                | 0.79| 0.90          | 0.92            | 0.72                 |              |
+| Accuracy             | 0.83                | 0.80| 0.91          | 0.88            | 0.79                 |              |
 
 ## Dependencies
 
