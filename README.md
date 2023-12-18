@@ -30,7 +30,7 @@ The steps are the following :
 5. Upload it on the Kaggle competition to see resulting accuracy
    
 ## File description
-All files are jupyter notebooks and perform all necessary installations within given code
+All jupyter notebooks contain necessary installations within given code
 
 1. Folder [data](data) : Contains datasets and a jupyter notebook making transformation
    - This one contains the needed DataTransformation.ipynb to perform all necessary transformation
@@ -71,6 +71,8 @@ Once this is done, you can select which of the model you would like to use to ma
 
 ## Results
 
+The model with the best final accuracy on the unlabelled test set is [`LogReg_Cam_COG_Full(0,562).ipynb`](Predictions/LogReg_Cam_COG_Full(0,562).ipynb implying an accuracy of 0.56 
+
 ## Model Evaluation Metrics
 
 | Model                | Logistic Regression | kNN | Decision Tree | Random Forests |Linear Regression | Neural Network | Ridge 
@@ -80,6 +82,11 @@ Once this is done, you can select which of the model you would like to use to ma
 | F1-score             | 0.563                | 0.| 0.389          | 0.499            | -                 |              |
 | Accuracy             | 0.56                | 0.| 0.39          | 0.50            | 0.74                 |              | 0.76
 
+## UI with streamlit - application
+Here is an application using our best model in which you can enter any text to get it evaluated and find its difficulty level. 
+
+## Video
+Here is a video explaining in more details the ideas and implementation of the model : 
 ## Dependencies
 
 [List all dependencies and versions required to run your project. Include links to relevant documentation.]
