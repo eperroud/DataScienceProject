@@ -78,7 +78,7 @@ Once this is done, you can select which of the model you would like to use to ma
 | Precision            | 0.562                | 0.| 0.408          | 0.449            | -                 |              |     
 | Recall               | 0.565                | 0.| 0.390          | 0.503           | -                 |              |
 | F1-score             | 0.563                | 0.| 0.389          | 0.499            | -                 |              |
-| Accuracy             | 0.56                | 0.| 0.39          | 0.50            | 0.                 |              | 0.76
+| Accuracy             | 0.56                | 0.| 0.39          | 0.50            | 0.74                 |              | 0.76
 
 ## Dependencies
 
