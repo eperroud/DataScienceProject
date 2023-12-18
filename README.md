@@ -43,7 +43,7 @@ All jupyter notebooks contain necessary installations within given code
    - File [`Ridge.ipynb`](Predictions/Ridge.ipynb) uses a Ridge method 
    - File [`LinReg.ipynb`](Predictions/LinReg.ipynb) uses a Linear regression method 
    - File [`LogReg_Cam(0,556).ipynb`](Predictions/LogReg_Cam(0,556).ipynb) uses a Logistic regression method taking BERT embeddings as explanatory variable among others
-   - File [`LogReg_Cam_COG(0_558).ipynb`](Predictions/LogReg_Cam_COG(0_558).ipynb) uses a Logistic regression method taking BERT embeddings and cognates as explanatory variable among others
+   - File [`LogReg_Cam_COG(0,558).ipynb`](Predictions/LogReg_Cam_COG(0,558).ipynb) uses a Logistic regression method taking BERT embeddings and cognates as explanatory variable among others
    - File [`LogReg_Cam_COG_Full(0,56).ipynb`](Predictions/LogReg_Cam_COG_Full(0,56).ipynb) uses a Logistic regression method taking BERT embeddings and cognates as explanatory variable among others with re-training on the full dataset
    - File [`LogReg_Cam_COG_Full(0,562).ipynb`](Predictions/LogReg_Cam_COG_Full(0,562).ipynb) uses a Logistic regression method taking BERT embeddings and cognates as explanatory variable among others with re-training on the full dataset
 
