@@ -29,8 +29,12 @@ This project aims to create a model that can detect the level of difficult of a 
 [Step-by-step instructions on how to install and set up your project, including any dependencies or requirements.]
 
 ## Usage
+In order to run the code properly you have two options : 
+  1. Run the DataTransformation.ipynb first which will provide two new datasets with all necessary modifications :       'final_test.csv' and 'final_training.csv'
 
-[Guidance on how to use your machine learning model or application, including code examples or usage scenarios.]
+  2. Directly import the existing 'final_test.csv' and 'final_training.csv' available from the data folder in the repository.
+
+Once this is done, you can select which of the model you would like to use to make predictions in the folder Predictions. 
 
 ## Data
 
