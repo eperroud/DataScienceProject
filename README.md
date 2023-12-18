@@ -34,7 +34,7 @@ This project aims to create a model that can detect the level of difficult of a 
 
 ## Usage
 In order to run the code properly you have two options : 
-  1. Run the DataTransformation.ipynb first which will provide two new datasets with all necessary modifications :       'final_test.csv' and 'final_training.csv'
+  1. Run the DataTransformation.ipynb first which will provide two new datasets with all necessary modifications :       data/final_test.csv and data/final_training.csv
 
   2. Directly import the existing 'final_test.csv' and 'final_training.csv' available from the data folder in the repository.
 
