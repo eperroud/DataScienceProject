@@ -27,8 +27,8 @@ This project aims to create a model that can detect the level of difficult of a 
 ## File description
 1. Folder data :
    - This one contains the needed DataTransformation.ipynb to perform all necessary transformation
-   - final_test.csv
-   - final_training.csv
+   - [`data/final_training.csv`](data/final_training.csv) is the training data with all necessary transformations already done
+   - [`data/final_test.csv`](data/final_test.csv) is the test data with all necessary transformations already done
 
 [Step-by-step instructions on how to install and set up your project, including any dependencies or requirements.]
 
