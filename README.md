@@ -73,12 +73,12 @@ Once this is done, you can select which of the model you would like to use to ma
 
 ## Model Evaluation Metrics
 
-| Model                | Logistic Regression | kNN | Decision Tree | Random Forests |Linear Regression | Neural Network
-|----------------------|---------------------|-----|---------------|-----------------|----------------------|--------------|
-| Precision            | 0.85                | 0.78| 0.92          | 0.89            | 0.76                 |              |     
-| Recall               | 0.72                | 0.81| 0.89          | 0.95            | 0.68                 |              |
-| F1-score             | 0.78                | 0.79| 0.90          | 0.92            | 0.72                 |              |
-| Accuracy             | 0.83                | 0.80| 0.91          | 0.88            | 0.79                 |              |
+| Model                | Logistic Regression | kNN | Decision Tree | Random Forests |Linear Regression | Neural Network | Ridge 
+|----------------------|---------------------|-----|---------------|-----------------|----------------------|--------------|--------|
+| Precision            | 0.562                | 0.| 0.408          | 0.449            | -                 |              |     
+| Recall               | 0.565                | 0.| 0.390          | 0.503           | -                 |              |
+| F1-score             | 0.563                | 0.| 0.389          | 0.499            | -                 |              |
+| Accuracy             | 0.56                | 0.| 0.39          | 0.50            | 0.                 |              | 0.76
 
 ## Dependencies
 
