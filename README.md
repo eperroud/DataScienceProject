@@ -71,7 +71,7 @@ Once this is done, you can select which of the model you would like to use to ma
 
 ## Results
 
-The model with the best final accuracy on the unlabelled test set is [`LogReg_Cam_COG_Full(0,562).ipynb`](Predictions/LogReg_Cam_COG_Full(0,562).ipynb implying an accuracy of 0.56 
+The model with the best final accuracy on the unlabelled test set is [`LogReg_Cam_COG_Full(0,562).ipynb`](Predictions/LogReg_Cam_COG_Full(0,562).ipynb) implying an accuracy of 0.56 
 
 ## Model Evaluation Metrics
 
