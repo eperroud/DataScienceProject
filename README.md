@@ -25,10 +25,24 @@ This project aims to create a model that can detect the level of difficult of a 
 [Detailed description of your machine learning project, its goals, and main functionalities.]
 
 ## File description
-1. Folder data :
+1. Folder [data](data) :
    - This one contains the needed DataTransformation.ipynb to perform all necessary transformation
    - [`data/final_training.csv`](data/final_training.csv) is the training data with all necessary transformations already done
    - [`data/final_test.csv`](data/final_test.csv) is the test data with all necessary transformations already done
+2. Folder [Predictions](Predictions) :
+   - File [`DT_GS.ipynb`](Predictions/DT_GS.ipynb) uses a Decision Tree method to predict text difficulty
+   - File [`RandomForest.ipynb`](Predictions/RandomForest.ipynb) uses a Random Forest method to predict text difficulty
+   - File [`Ridge.ipynb`](Predictions/Ridge.ipynb) uses a Ridge method to predict text difficulty
+   - File [`LinReg.ipynb`](Predictions/LinReg.ipynb) uses a Linear regression method to predict text difficulty
+   - File [`LogReg_Cam(0,556).ipynb`](Predictions/LogReg_Cam(0,556).ipynb) uses a Logistic regression method to predict text difficulty taking BERT embeddings as explanatory variable among others
+   - File [`LogReg_Cam_COG(0_558).ipynb`](Predictions/LogReg_Cam_COG(0_558).ipynb) uses a Logistic regression method to predict text difficulty taking BERT embeddings and cognates as explanatory variable among others
+   - File [`LogReg_Cam_COG_Full(0,56).ipynb`](Predictions/LogReg_Cam_COG_Full(0,56).ipynb) uses a Logistic regression method to predict text difficulty taking BERT embeddings and cognates as explanatory variable among others with re-training on the full dataset
+   - File [`LogReg_Cam_COG_Full(0,562).ipynb`](Predictions/LogReg_Cam_COG_Full(0,562).ipynb) uses a Logistic regression method to predict text difficulty taking BERT embeddings and cognates as explanatory variable among others with re-training on the full dataset
+
+
+
+
+
 
 [Step-by-step instructions on how to install and set up your project, including any dependencies or requirements.]
 
