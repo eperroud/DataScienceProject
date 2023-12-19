@@ -33,7 +33,7 @@ The steps are the following :
 All jupyter notebooks contain necessary installations within given code
 
 1. Folder [data](data) : Contains datasets and a jupyter notebook making transformation
-   - This one contains the needed ['data/Data_Transformation_Final.ipynb'](data/Data_Transformation_Final.ipynb) to perform all necessary transformation
+   - This one contains the needed ['Data_Transformation_Final.ipynb'](data/Data_Transformation_Final.ipynb) to perform all necessary transformation
    - [`data/final_training.csv`](data/final_training.csv) is the training data with all necessary transformations already done
    - [`data/final_test.csv`](data/final_test.csv) is the test data with all necessary transformations already done
      
