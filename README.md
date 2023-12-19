@@ -63,9 +63,9 @@ Initial training and unlabelled dataset were taken directly from the kaggle comp
 
 ## Results
 
-The model with the best final accuracy on the unlabelled test set is [`LogReg_Cam_COG_Full(0,562).ipynb`](Predictions/LogReg_Cam_COG_Full(0,562).ipynb) implying an accuracy of 0.56 
+The model with the best final accuracy on the unlabelled test set is [`LogReg_Cam_COG_Full(0,562).ipynb`](Predictions/LogReg_Cam_COG_Full(0,562).ipynb) implying an accuracy of 0.562 on the kaggle competition. 
 
-The confusion matrix of our best predictions is the following : 
+The confusion matrix of our best predictions on the training set is the following : 
 
 |                  | Level 0 - A1 | Level 1 - A2 | Level 2 - B1 | Level 3 - B2 | Level 4 - C1 | Level 5 - C2 |
 |------------------|---------|---------|---------|---------|---------|---------|
