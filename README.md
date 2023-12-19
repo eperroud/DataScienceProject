@@ -33,7 +33,7 @@ The steps are the following :
 All jupyter notebooks contain necessary installations within given code
 
 1. Folder [data](data) : Contains datasets and a jupyter notebook making transformation
-   - This one contains the needed DataTransformation.ipynb to perform all necessary transformation
+   - This one contains the needed ['data/Data_Transformation_Final.ipynb'](data/Data_Transformation_Final.ipynb) to perform all necessary transformation
    - [`data/final_training.csv`](data/final_training.csv) is the training data with all necessary transformations already done
    - [`data/final_test.csv`](data/final_test.csv) is the test data with all necessary transformations already done
      
@@ -51,7 +51,7 @@ All jupyter notebooks contain necessary installations within given code
 
 ## Usage
 In order to run the code properly you have two options : 
-  1. Run the DataTransformation.ipynb first which will provide two new datasets with all necessary modifications : [`data/final_test.csv`](data/final_test.csv) and [`data/final_training.csv`](data/final_training.csv)
+  1. Run ['data/Data_Transformation_Final.ipynb'](data/Data_Transformation_Final.ipynb) first which will provide two new datasets with all necessary modifications : [`data/final_test.csv`](data/final_test.csv) and [`data/final_training.csv`](data/final_training.csv)
 
   2. Directly import the existing [`data/final_test.csv`](data/final_test.csv) and [`data/final_training.csv`](data/final_training.csv) available from the data folder in the repository.
 
