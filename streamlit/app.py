@@ -4,7 +4,7 @@ from data_preprocess import Preprocess
 import pandas as pd
 
 # Now you can use MyClass in app.py
-logistic_model = load('/Users/elenaperroud/Desktop/DataScienceProject/streamlit/LogRegFull.joblib')
+logistic_model = load('https://github.com/eperroud/DataScienceProject/raw/5bcf08307d9d3e9c742e4d285382567ce647a5b1/streamlit/LogRegFull.joblib')
 
 user_input = st.text_input("Enter your sentence here:")
 if type(user_input) != str:
