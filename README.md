@@ -59,15 +59,7 @@ Once this is done, you can select which of the model you would like to use to ma
 
 ## Data
 
-[Information about the dataset(s) used in your project, such as source, format, and preprocessing steps.]
-
-## Model Architecture
-
-[Details about the architecture of your machine learning model, potentially including a diagram for better understanding.]
-
-## Training
-
-[Instructions on how to train the model or provide information about a pre-trained model. Include hyperparameters and relevant training details.]
+Initial training and unlabelled dataset were taken directly from the kaggle competition interface. 
 
 ## Results
 
@@ -75,7 +67,7 @@ The model with the best final accuracy on the unlabelled test set is [`LogReg_Ca
 
 The confusion matrix of our best predictions is the following : 
 
-|                  | evel 0 - A1 | Level 1 - A2 | Level 2 - B1 | Level 3 - B2 | Level 4 - C1 | Level 5 - C2 |
+|                  | Level 0 - A1 | Level 1 - A2 | Level 2 - B1 | Level 3 - B2 | Level 4 - C1 | Level 5 - C2 |
 |------------------|---------|---------|---------|---------|---------|---------|
 | **Level 0 - A1**      | 125     | 33      | 7       | 1       | 0       | 0       |
 | **Level 1 - A2**      | 29      | 83      | 41      | 2       | 2       | 1       |
@@ -101,8 +93,11 @@ Here is an application using our best model in which you can enter any text to g
 Here is a video explaining in more details the ideas and implementation of the model : 
 ## Dependencies
 
-[List all dependencies and versions required to run your project. Include links to relevant documentation.]
+- **spacy:** 3.2.0
+- **sentencepiece:** 0.1.96
+- **transformers:** 4.12.2
 
+  
 ## Contributing
 
 [Guidelines for others who want to contribute to your project. Include information on submitting bug reports or feature requests.]
