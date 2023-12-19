@@ -42,7 +42,9 @@ All jupyter notebooks contain necessary installations within given code
    - File [`RandomForest.ipynb`](Predictions/RandomForest.ipynb) uses a Random Forest method 
    - File [`Ridge.ipynb`](Predictions/Ridge.ipynb) uses a Ridge method 
    - File [`LinReg.ipynb`](Predictions/LinReg.ipynb) uses a Linear regression method
-   -  - File [`kNNReg.ipynb`](Predictions/kNNReg.ipynb) uses a kNN regression method 
+   - File [`kNNReg.ipynb`](Predictions/kNNReg.ipynb) uses a kNN regression method
+   - File [`nnReg.ipynb`](Predictions/nnReg.ipynb) uses a Neural Network method 
+
    - File [`LogReg_Cam(0,556).ipynb`](Predictions/LogReg_Cam(0,556).ipynb) uses a Logistic regression method taking BERT embeddings as explanatory variable among others
    - File [`LogReg_Cam_COG(0,558).ipynb`](Predictions/LogReg_Cam_COG(0,558).ipynb) uses a Logistic regression method taking BERT embeddings and cognates as explanatory variable among others
    - File [`LogReg_Cam_COG_Full(0,56).ipynb`](Predictions/LogReg_Cam_COG_Full(0,56).ipynb) uses a Logistic regression method taking BERT embeddings and cognates as explanatory variable among others with re-training on the full dataset
