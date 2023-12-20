@@ -103,7 +103,8 @@ The UI interface with streamlit can be found in the [`streamlit`](data/streamlit
 
 ## Video
 
-Here is a video explaining in more details the ideas and implementation of the model : 
+Here is a video explaining in more details the ideas and implementation of the model : https://youtu.be/yfTLAezchkM
+
 
 ## Dependencies
 
