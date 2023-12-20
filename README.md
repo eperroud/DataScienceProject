@@ -18,7 +18,7 @@ This project aims to create a model that can detect the level of difficult of a 
 - [Dependencies](#dependencies)
 
 
-## Description
+## Description(#description)
 This project aims to predict text difficulty. The methodolgy is to train your model on the training dataset and finally to predict text difficulty on a text dataset that will be uploaded on a Kaggle competition and give the final accuracy of the model. 
 The steps are the following : 
 1. Perform data transformation on training and tests set to find the best explanatory variables
