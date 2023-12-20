@@ -89,8 +89,8 @@ The confusion matrix of our best predictions on the training set is the followin
 
 | Model                | Logistic Regression | kNN | Decision Tree | Random Forests |Linear Regression | Neural Network | Ridge 
 |----------------------|---------------------|-----|---------------|-----------------|----------------------|--------------|--------|
-| Precision            | 0.56                | 0.11| 0.41          | 0.45           | 0.52                |     0.51         | 0.52    
-| Recall               | 0.57                | 017.| 0.39         | 0.50           | 0.47                 |       0.46       | 0.47
+| Precision            | 0.56                | 0.11| 0.41          | 0.45           | 0.52                 |     0.51         | 0.52    
+| Recall               | 0.57                | 0.17| 0.39          | 0.50           | 0.47                 |       0.46       | 0.47
 | F1-score             | 0.56                | 0.09| 0.39          | 0.50            | 0.48                 |       0.45       | 0.47
 | Accuracy             | 0.56                | 0.17| 0.39          | 0.50            | 0.74                 |   0.46           | 0.76
 
