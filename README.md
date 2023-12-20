@@ -33,7 +33,8 @@ The steps are the following :
 All jupyter notebooks contain necessary installations within given code
 
 1. Folder [data](data) : Contains datasets and a jupyter notebook making transformation
-   - This one contains the needed [`Data_Transformation_Final.ipynb`](data/Data_Transformation_Final.ipynb) to perform all necessary transformation
+   - This one contains the needed [`Data_Transformation_Final.ipynb`](data/Data_Transformation_Final.ipynb) to perform preprocessing transformation
+   - [`Cognates.ipynb`](data/Cognates.ipynb) finds the number of similarities in french-english cognates
    - [`final_training.csv`](data/final_training.csv) is the training data with all necessary transformations already done
    - [`final_test.csv`](data/final_test.csv) is the test data with all necessary transformations already done
      
@@ -54,7 +55,7 @@ All jupyter notebooks contain necessary installations within given code
 
 ## Usage
 In order to run the code properly you have two options : 
-  1. Run [`Data_Transformation_Final.ipynb`](data/Data_Transformation_Final.ipynb) first which will provide two new datasets with all necessary modifications : [`data/final_test.csv`](data/final_test.csv) and [`data/final_training.csv`](data/final_training.csv)
+  1. Run [`Data_Transformation_Final.ipynb`](data/Data_Transformation_Final.ipynb) first, then run [`Cognates.ipynb`](data/Cognates.ipynb) which will provide two new datasets with all necessary modifications : [`data/final_test.csv`](data/final_test.csv) and [`data/final_training.csv`](data/final_training.csv)
 
   2. Directly import the existing [`data/final_test.csv`](data/final_test.csv) and [`data/final_training.csv`](data/final_training.csv) available from the data folder in the repository.
 
