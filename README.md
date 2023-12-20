@@ -59,7 +59,7 @@ All jupyter notebooks contain necessary installations within given code
 
 ## Usage
 In order to run the code properly you have two options : 
-  1. Run [`Data_Transformation_Final.ipynb`](data/Data_Transformation_Final.ipynb) first which will export [`new_training.csv`](data/new_training.csv) and [`new_test.csv`](data/new_test.csv) , then run [`Cognates.ipynb`](data/Cognates.ipynb) which will provide two new datasets with all necessary modifications : [`data/final_test.csv`](data/final_test.csv) and [`data/final_training.csv`](data/final_training.csv)
+  1. Run [`Data_Preprocessing.ipynb`](data/Data_Preprocessing.ipynb) first which will export [`new_training.csv`](data/new_training.csv) and [`new_test.csv`](data/new_test.csv) , then run [`Cognates.ipynb`](data/Cognates.ipynb) which will provide two new datasets with all necessary modifications : [`data/final_test.csv`](data/final_test.csv) and [`data/final_training.csv`](data/final_training.csv)
 
   2. Directly import the existing [`data/final_test.csv`](data/final_test.csv) and [`data/final_training.csv`](data/final_training.csv) available from the data folder in the repository.
 
