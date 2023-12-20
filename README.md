@@ -8,12 +8,13 @@ This project aims to create a model that can detect the level of difficult of a 
 ## Table of Contents
 
 - [Description](#description)
-- [Installation](#installation)
+- [File description](#Filedescription)
 - [Usage](#usage)
 - [Data](#data)
-- [Model Architecture](#model-architecture)
-- [Training](#training)
 - [Results](#results)
+- [Model Evaluation Metrics](#ModelEvaluationMetrics)
+- [UI with streamlit - application](#uiwithstreamlit)
+- [Video](#video)
 - [Dependencies](#dependencies)
 
 
